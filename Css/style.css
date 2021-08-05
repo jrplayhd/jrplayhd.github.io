@@ -1,118 +1,94 @@
 *{
-               margin: 0;
-               padding: 0;
-          }
-          
-          body{
-               font-family: sans-serif;
-               background-color: #121212;
-          }
-
-          .header{
-               height: 60px;
-               width: 100%;
-               /*
-               background-image: URL();
-               */
-               background-color: #000;
-               position: fixed;
-          }
-
-          .logo{
-               height: 30px;
-               padding: 13px;
-               cursor: pointer;
-          }
-
-          .noticia{
-               padding: 15px;
-          }
-          
-          .missao{
-               color: #000;
-               font-size: 32px;
-               margin-top: 80px;
-          }
-
-          .titulo{
-               color: #fff;
-               font-size: 32px;
-               margin-top: 60px;
-          }
-
-          .subtitulo{
-               color: #B2B2B2;
-               margin-top: 10px;
-               margin-bottom: 15px;
-          }
-          
-          .ler{
-               width: 250px;
-               height: 40px;
-               border: none;
-               border-radius: 3px;
-               color: #fff;
-               background-color: #9143FB;
-               font-weight: bold;
-               cursor: pointer;
-               margin-bottom: 15px;
-          }
-          
-          .ler:hover{
-               color: #fff;
-               background-color: #000;
-               border: 3px solid #9143FB;
-               transition: 0.5s;
-          }
-
-          .trailer{
-               width: 250px;
-               height: 40px;
-               border: none;
-               border-radius: 3px;
-               color: #000;
-               background-color: #fff;
-               font-weight: bold;
-               cursor: pointer;
-               margin-bottom: 100px;
-
-          }
-
-          .trailer:hover{
-               color: #fff;
-               background-color: #000;
-               border: 3px solid #fff;
-               transition: 0.5s;
-          }
-
-          .poster{
-               margin-bottom: 50px;
-          }
-
-          .posterwere{
-               width: 300px;
-               height: 160px;
-          }
-
-          .thumb{
-               height: 100%;
-               width: 100%;
-               /*1600x900.jpg*/
-               border: 1px solid #000;
-          }
-
-         
-
-          .info-site{
-               color: #8E8E8E;
-               padding-top: 10px;
-               padding-bottom: 10px;
-               font-size: 12px;
-          } 
-@media (min-width: 767px) {
-
-.titulo, .subtitulo{
-     text-align: center;
+     padding: 0;
+     margin: 0;
 }
 
+body{
+     font-family: sans-serif;
+}
+.content{
+     position: absolute;
+     top: 0px;
+     height: 100%;
+     width: 100%;
+}
+
+.child-content{
+     height: 87%;
+     width: 100%;
+}
+
+.img-profile{
+     height: 90px;
+     width: 90px;
+     margin-top: 25px;
+     border-radius: 50%;
+     background-color: #fff;
+}
+
+.username{
+     margin-top: 5px;
+     margin-bottom: 15px;
+     font-size: 17px;
+     font-weight: bold;
+}
+
+.list{
+     height: 68%;
+     overflow-y: scroll;
+     
+}
+
+.section-name{
+     margin: 5px;
+     padding: 5px;
+     font-size: 16px;
+}
+
+.apps{
+     font-size: 15px;
+     padding: 10px;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     text-decoration: none;
+     cursor: pointer;
+}
+
+.apps:hover{
+     transition: 0.3s;
+}
+
+.footer{
+     height: 10%;
+     width: 100%;
+     position: absolute;
+     bottom: 0px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background: none;
+}
+
+.logo{
+     height: 20px;
+     margin: 5px;
+     background-size: cover;
+}
+
+.copyright{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     color: #D3D3D3;
+     font-size: 11px;
+     opacity: 90%;
+}
+
+.lg-year{
+     margin-right: 1.2px;
+}
+
+.who-img{
+     margin-left: 1.2px;
 }
